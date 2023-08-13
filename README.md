@@ -55,7 +55,7 @@ Users should be able to:
 
 ### What I learned
 
-This project sadly dragged partly because of Childcare and Property Management responsibilities. But in all the learnings were massive, and include:
+This project dragged, sadly partly because of Childcare and Property Management responsibilities. But in all the learnings were massive, and include:
 
 - That when it comes to an element's background CSS property, you can use ::before and ::after pseudo-elements to style some part of said element.
 - Proper use of Next.js Image component.
