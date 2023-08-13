@@ -49,7 +49,7 @@ body {
   left: 0;
   width: 100%;
   height: 25%;
-  background-image: url("/images/bg-sidebar-mobile.svg");
+  background-image: url("./images/bg-sidebar-mobile.svg");
   background-size: cover;
   background-position: center top;
   z-index: -1;
@@ -87,7 +87,6 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0.5rem;
-  background-color: var(--magnolia);
 }
 .main-des {
   width: 375px;
@@ -140,7 +139,7 @@ body {
   align-items: center;
   gap: 3rem;
   padding-top: 2rem;
-  background-image: url("/images/bg-sidebar-desktop.svg");
+  background-image: url("./images/bg-sidebar-desktop.svg");
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -177,12 +176,12 @@ body {
 .asdes-step {
   color: var(--cool-gray);
   font-size: 0.9rem;
-  text-transform: uppercase;
+  text-transform:uppercase;
 }
 .asdes-steptitle {
   color: var(--white);
   font-size: 1.1rem;
-  text-transform: uppercase;
+  text-transform:uppercase;
 }
 /* Section Mob************************/
 /* section-one Mob ************************/
@@ -237,10 +236,6 @@ body {
   border: 1px solid var(--cool-gray);
   border-radius: 5px;
 }
-.sec1-error{
-  color:red;
-  font-size: 0.9rem;
-}
 .sec1-nav {
   height: 15%;
   background-color: var(--white);
@@ -258,10 +253,6 @@ body {
   background-color: var(--marine-blue);
   color: var(--white);
   font-weight: bolder;
-}
-.sec1-but:hover {
-  cursor: pointer;
-  background-color: hsl(213, 96%, 38%); 
 }
 /* section-two Mob ************************/
 .sec2 {
@@ -308,15 +299,12 @@ body {
   align-items: center;
   gap: 1rem;
   border-radius: 5px;
+}
+.sec2-plans-selected {
+  border: 1.5px solid var(--marine-blue);
+}
+.sec2-plans-unselected {
   border: 1px solid var(--cool-gray);
-}
-.sec2-plans:hover{
-  cursor: pointer;
-  border: 1.5px solid var(--marine-blue);
-}
-.sec2-selected{
-  border: 1.5px solid var(--marine-blue);
-  background-color: var(--light-blue);
 }
 .sec2-icon-arcade {
   width: 2rem;
@@ -327,7 +315,7 @@ body {
   border-radius: 50%;
 }
 .sec2-icon-arcade::before {
-  background-image: url("/images/icon-arcade.svg");
+  background-image: url("./images/icon-arcade.svg");
   content: "";
   display: block;
   width: 2rem;
@@ -356,7 +344,7 @@ body {
   border-radius: 50%;
 }
 .sec2-icon-advanced::before {
-  background-image: url("/images/icon-advanced.svg");
+  background-image: url("./images/icon-advanced.svg");
   content: "";
   display: block;
   width: 2rem;
@@ -373,7 +361,7 @@ body {
   border-radius: 50%;
 }
 .sec2-icon-pro::before {
-  background-image: url("/images/icon-pro.svg");
+  background-image: url("./images/icon-pro.svg");
   content: "";
   display: block;
   width: 2rem;
@@ -403,9 +391,6 @@ body {
 }
 .sec2-toggler {
   width: 3rem;
-}
-.sec2-switch:hover{
-  cursor: pointer;
 }
 .sec2-checkbox {
   display: none;
@@ -450,10 +435,6 @@ body {
   font-weight: bolder;
   color: var(--cool-gray);
 }
-.sec2-back:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
 .sec2-but {
   height: 2.5rem;
   width: 5.5rem;
@@ -461,10 +442,6 @@ body {
   background-color: var(--marine-blue);
   color: var(--white);
   font-weight: bolder;
-}
-.sec2-but:hover {
-  cursor: pointer;
-  background-color: hsl(213, 96%, 38%); 
 }
 /* section-three Mob ************************/
 .sec3 {
@@ -513,13 +490,16 @@ body {
   border-radius: 5px;
   border: 1px solid var(--cool-gray);
 }
-.sec3-addons:hover{
+.sec3-addons-selected {
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 5px;
   border: 1.5px solid var(--marine-blue);
-  cursor: pointer;
-}
-.sec3-addons-selected{
-  border: 1.5px solid var(--marine-blue);
-  background-color: var(--light-blue);
 }
 .sec3-input {
   width: 1.5rem;
@@ -547,10 +527,6 @@ body {
   font-weight: bolder;
   color: var(--cool-gray);
 }
-.sec3-back:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
 .sec3-but {
   height: 2.5rem;
   width: 5.5rem;
@@ -558,10 +534,6 @@ body {
   background-color: var(--marine-blue);
   color: var(--white);
   font-weight: bolder;
-}
-.sec3-but:hover {
-  cursor: pointer;
-  background-color: hsl(213, 96%, 38%); 
 }
 /* section-four Mob ************************/
 .sec4 {
@@ -630,10 +602,6 @@ body {
   color: var(--cool-gray);
   text-decoration: underline;
 }
-.sec4-change:hover {
-  cursor: pointer;
-  color: var(--purplish-blue);
-}
 .sec4-totals {
   color: var(--marine-blue);
   font-weight: bolder;
@@ -686,21 +654,13 @@ body {
   font-weight: bolder;
   color: var(--cool-gray);
 }
-.sec4-back:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
 .sec4-but {
   height: 2.5rem;
   width: 5.5rem;
   border-radius: 5px;
-  background-color: var(--purplish-blue);
+  background-color: var(--marine-blue);
   color: var(--white);
   font-weight: bolder;
-}
-.sec4-but:hover {
-  cursor: pointer;
-  background-color: hsl(243, 100%, 42%);
 }
 /* section-five Mob ************************/
 .sec5 {
@@ -735,7 +695,7 @@ body {
   border-radius: 50%;
 }
 .sec5-thankyouimg::before {
-  background-image: url("/images/icon-thank-you.svg");
+  background-image: url("./images/icon-thank-you.svg");
   content: "";
   display: block;
   width: 3rem;
@@ -779,12 +739,12 @@ body {
   padding: 0.5rem 0;
   gap: 5rem;
 }
-.secd2-plans-container {
+.secd2-plans-container{
   display: flex;
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width:100%;
 }
 .secd2-plans {
   width: 30%;
@@ -795,15 +755,12 @@ body {
   align-items: flex-start;
   gap: 4rem;
   border-radius: 5px;
+}
+.secd2-plans-selected {
+  border: 1.5px solid var(--marine-blue);
+}
+.secd2-plans-unselected {
   border: 1px solid var(--cool-gray);
-}
-.secd2-plans:hover{
-  border: 1.5px solid var(--marine-blue);
-  cursor: pointer;
-}
-.secd2-selected{
-  border: 1.5px solid var(--marine-blue);
-  background-color: var(--light-blue);
 }
 /* section-three Des************************/
 .secd3 {
@@ -828,26 +785,24 @@ body {
   border-radius: 5px;
   border: 1px solid var(--cool-gray);
 }
-.secd3-addons:hover{
-  cursor: pointer;
+.secd3-addons-selected {
   border: 1.5px solid var(--marine-blue);
 }
-.secd3-addons-selected{
-  border: 1.5px solid var(--marine-blue);
-  background-color: var(--light-blue);
+.secd3-addons-unselected {
+  border: 1px solid var(--cool-gray);
 }
-.secd3-addons-details {
+.secd3-addons-details{
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: flex-start;
-  width: 100%;
+  width:100%;
 }
-.secd3-addons-desc {
+.secd3-addons-desc{
   font-size: 0.9rem;
   color: var(--cool-gray);
 }
-.secd3-addons-cost {
+.secd3-addons-cost{
   color: var(--purplish-blue);
 }
 /* section-four Des************************/
@@ -879,7 +834,7 @@ body {
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 1rem;
+  padding:0.5rem 1rem;
 }
 .secd4-total {
   width: 100%;
@@ -925,7 +880,7 @@ body {
   border-radius: 50%;
 }
 .secd5-thankyouimg::before {
-  background-image: url("/images/icon-thank-you.svg");
+  background-image: url("./images/icon-thank-you.svg");
   content: "";
   display: block;
   width: 4rem;
@@ -964,6 +919,7 @@ body {
 }
 .foot-mob-anc:hover {
   color: hsl(198, 97%, 50%);
+  transform: scale(1.1);
   text-decoration: underline;
 }
 /* Footer Desktop************************/
@@ -986,6 +942,7 @@ body {
 }
 .foot-des-anc:hover {
   color: hsl(198, 97%, 50%);
+  transform: scale(1.1);
   text-decoration: underline;
 }
 /* Media Queries ************************/
@@ -1022,9 +979,4 @@ body {
   .main-des {
     width: 950px;
   }
-}
-.pic {
-  width: 400px;
-  height: 400px;
-  position: relative;
 }

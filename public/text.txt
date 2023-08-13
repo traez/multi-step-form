@@ -1,0 +1,4 @@
+MobileDesignStep4 is meant for mobile view, while DesktopDesignStep4 should be alternative version for desktop view
+
+help refactor DesktopDesignStep4, particularly secd4-selplan, sec4-seladdons and secd4-total
+so logic mirrors functionality in MobileDesignStep4

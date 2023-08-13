@@ -1,0 +1,38 @@
+------------------------------------------------------------------------------------------Main
+------------------------------------------------------------------------Aside 3fr
+---------------------------------------------------------Menu X 4
+------------------------------------------------------------------------Section 18fr
+---------------------------------------------------------Article X 4 (+ Modal)
+---------------------------------------------------------Nav X 4
+------------------------------------------------------------------------Footer 2fr
+
+----------------------------------------------
+https://fm-multi-step-form.vercel.app/
+https://github.com/larrasu (Repo not seen)
+----------------------------------------------
+-Things learnt
+-for background CSS property, using ::before and ::after pseudo-elements to style some part of element.
+-Proper use of Next.js Image component
+-In React, the for attribute should be used as htmlFor instead
+-computed property names in Objects
+----------------------------------------------
+import Image from 'next/image';
+
+<div className="pic">
+        <Image
+          src="/images/southafrica.webp"
+          alt="Image"
+          fill
+          sizes="(min-width: 400px) 100vw"
+        />
+</div>
+
+.pic{
+  width:400px;
+  height: 400px;
+  position: relative;
+}
+----------------------------------------------
+----------------------------------------------
+----------------------------------------------
+
